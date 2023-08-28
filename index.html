@@ -14,17 +14,26 @@
         body{
             text-align: center;
         }
+        #container{
+            height: 80vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         #mapid {
-            height: 800px;
+            height: 90%;
             width: 80%;
-            margin-left: 10%;
         }
     </style>
 </head>
 <body>
     <h1>Localozação em tempo real:</h1>
     <h2></h2>
-    <div id="mapid"></div>
+    <div id="container">
+        <div id="mapid"></div>
+    </div>
+    
     <script src="./script.js"></script>
     
 </body>
